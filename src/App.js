@@ -14,12 +14,12 @@ const App = () => {
         <Router>
             <Routes>
                 <Route exact path="/" element={<LandingPage />} />
-                <Route path="/selection" element={<OwnerWorkerSelectionPage />} />
+                {/* <Route path="/selection" element={<OwnerWorkerSelectionPage />} />
                 <Route path="/owner-registration" element={<RegistrationPage />} />
                 <Route path="/worker-registration" element={<RegistrationPage />} />
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/select" element={<PlaceSelect />} />
-                <Route path="/dashboard" element={<DashboardPage />} />
+                <Route path="/dashboard" element={<DashboardPage />} /> */}
                 {/* Add more routes for other pages */}
             </Routes>
         </Router>
