@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Handlooms-connections/static/css/main.02ccf217.css",
-    "main.js": "/Handlooms-connections/static/js/main.da6c154a.js",
+    "main.js": "/Handlooms-connections/static/js/main.eee28365.js",
     "static/js/453.5b0f7742.chunk.js": "/Handlooms-connections/static/js/453.5b0f7742.chunk.js",
     "static/media/Reg.png": "/Handlooms-connections/static/media/Reg.5c9a006df253c22f5cc6.png",
     "static/media/Main.gif": "/Handlooms-connections/static/media/Main.ea683223939871bc65a2.gif",
     "static/media/Landing.png": "/Handlooms-connections/static/media/Landing.d7ae7c13c544803505e7.png",
     "index.html": "/Handlooms-connections/index.html",
     "main.02ccf217.css.map": "/Handlooms-connections/static/css/main.02ccf217.css.map",
-    "main.da6c154a.js.map": "/Handlooms-connections/static/js/main.da6c154a.js.map",
+    "main.eee28365.js.map": "/Handlooms-connections/static/js/main.eee28365.js.map",
     "453.5b0f7742.chunk.js.map": "/Handlooms-connections/static/js/453.5b0f7742.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02ccf217.css",
-    "static/js/main.da6c154a.js"
+    "static/js/main.eee28365.js"
   ]
 }
