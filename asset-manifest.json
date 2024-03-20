@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/Handlooms-connections/static/css/main.02ccf217.css",
-    "main.js": "/Handlooms-connections/static/js/main.eee28365.js",
+    "main.css": "/Handlooms-connections/static/css/main.0b136e11.css",
+    "main.js": "/Handlooms-connections/static/js/main.db8f6cd5.js",
     "static/js/453.5b0f7742.chunk.js": "/Handlooms-connections/static/js/453.5b0f7742.chunk.js",
     "static/media/Reg.png": "/Handlooms-connections/static/media/Reg.5c9a006df253c22f5cc6.png",
     "static/media/Main.gif": "/Handlooms-connections/static/media/Main.ea683223939871bc65a2.gif",
     "static/media/Landing.png": "/Handlooms-connections/static/media/Landing.d7ae7c13c544803505e7.png",
+    "static/media/Sun.svg": "/Handlooms-connections/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
+    "static/media/slick.svg": "/Handlooms-connections/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Handlooms-connections/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Handlooms-connections/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Handlooms-connections/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Handlooms-connections/index.html",
-    "main.02ccf217.css.map": "/Handlooms-connections/static/css/main.02ccf217.css.map",
-    "main.eee28365.js.map": "/Handlooms-connections/static/js/main.eee28365.js.map",
+    "static/media/Moon.svg": "/Handlooms-connections/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
+    "main.0b136e11.css.map": "/Handlooms-connections/static/css/main.0b136e11.css.map",
+    "main.db8f6cd5.js.map": "/Handlooms-connections/static/js/main.db8f6cd5.js.map",
     "453.5b0f7742.chunk.js.map": "/Handlooms-connections/static/js/453.5b0f7742.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02ccf217.css",
-    "static/js/main.eee28365.js"
+    "static/css/main.0b136e11.css",
+    "static/js/main.db8f6cd5.js"
   ]
 }
