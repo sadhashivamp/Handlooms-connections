@@ -7,6 +7,7 @@ import axios from 'axios'
 import { useNavigate, Link } from 'react-router-dom';
 import Background from '../Common/Background';
 import { FaArrowLeft } from 'react-icons/fa';
+import DarkMode from '../DarkMode/DarkMode';
 
 const LoginPage = () => {
     const [formData, setFormData] = useState({
@@ -42,16 +43,19 @@ const LoginPage = () => {
 
     return (
         <div>
-            <Link to="/" className='arrow-icon'>
+            <Link to="/worker-registration" className='arrow-icon'>
                 <FaArrowLeft className="back-arrow-icon" />
             </Link>
-            <Background />
+            <div style={{ position: "absolute", top: '.5rem', right: '2rem' }}>
+                <DarkMode />
+            </div>
+            {/* <Background /> */}
 
             <Container className="reg-container">
                 <Row className="align-items-center justify-content-center">
 
                     <Col md={6} className="mb-4 mb-md-0">
-                        <div className="registration-box p-4 rounded  border">
+                        <div className="registration-box p-4 rounded  border md-position-relative md-top-35px">
                             <h1 className="login-mainHead mb-4" style={{ color: '#0d6efd' }}>Login</h1>
                             <Form onSubmit={handleSubmit}>
                                 <Form.Group className="mb-2" controlId="username">

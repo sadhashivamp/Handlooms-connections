@@ -11,18 +11,20 @@ import DashboardPage from './Components/Dashboard';
 
 const App = () => {
     return (
-        <Router>
-            <Routes>
-                <Route exact path="/" element={<LandingPage />} />
-                {/* <Route path="/selection" element={<OwnerWorkerSelectionPage />} />
-                <Route path="/owner-registration" element={<RegistrationPage />} />
-                <Route path="/worker-registration" element={<RegistrationPage />} />
-                <Route path="/login" element={<LoginPage />} />
-                <Route path="/select" element={<PlaceSelect />} />
-                <Route path="/dashboard" element={<DashboardPage />} /> */}
-                {/* Add more routes for other pages */}
-            </Routes>
-        </Router>
+        <div className='App-main'>
+            <Router>
+                <Routes>
+                    <Route exact path="/Handlooms-connections" element={<LandingPage />} />
+                    <Route path="/selection" element={<OwnerWorkerSelectionPage />} />
+                    <Route path="/owner-registration" element={<RegistrationPage />} />
+                    <Route path="/worker-registration" element={<RegistrationPage />} />
+                    <Route path="/login" element={<LoginPage />} />
+                    <Route path="/select" element={<PlaceSelect />} />
+                    <Route path="/dashboard" element={<DashboardPage />} />
+                    {/* Add more routes for other pages */}
+                </Routes>
+            </Router>
+        </div>
     );
 }
 

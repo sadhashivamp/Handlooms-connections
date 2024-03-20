@@ -1,8 +1,45 @@
+/* toggle theme */
+
+:root {
+  --body_background: white !important;
+  --body_color: black !important;
+  --link_color: navy !important;
+  --card-role: cyan !important;
+  --para-line: black !important;
+}
+
+[data-theme="dark"] {
+  --body_background: #282c34 !important;
+  --body_color: white !important; 
+  --link_color: cyan !important;
+  --card-role: rgb(92, 92, 181) !important;
+  --para-line: white !important;
+
+}
+
+.App-main {
+  background-color: var(--body_background);
+  color: var(--body_color)
+}
+
+
+.welcome {
+  color: var(--body_color);
+}
+
+.para-text {
+  color: var(--para-line)
+}
+
+.para-title {
+  color: var(--para-line) !important;
+}
+
+
 /* OwnerWorkerSelectionPage.css */
 .role-card {
   height: 100%;
-  background-color: #9ad6bd !important;
-  /* Change to your desired background color */
+  background-color: var(--card-role) !important;
   border: 1px solid #dee2e6;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -43,9 +80,9 @@
 
 @media (hover: none) and (min-width: 340px) {
   .arrow-icon {
-      background: rgba(var(--bs-link-color-rgb));
-      color: #fff;
-      z-index: 999;
+    background: rgba(var(--bs-link-color-rgb));
+    color: #fff;
+    z-index: 999;
   }
 }
 
@@ -69,15 +106,15 @@
 
 @media (hover: none) and (min-width: 340px) {
   .reg-mainHead {
-      text-align: center;
+    text-align: center;
   }
 
   .login-mainHead {
-      text-align: center;
+    text-align: center;
   }
 
   .place-select-container {
-      margin: 1rem;
+    margin: 1rem;
   }
 }
 

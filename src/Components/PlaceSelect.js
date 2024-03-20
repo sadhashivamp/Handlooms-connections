@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from "axios"
 import Background from '../Common/Background';
 import { useNavigate } from 'react-router-dom';
+import DarkMode from '../DarkMode/DarkMode';
 
 const PlaceSelect = () => {
     const [selectedState, setSelectedState] = useState('');
@@ -66,7 +67,10 @@ const PlaceSelect = () => {
 
     return (
         <div className='place-select-container'>
-            <Background />
+            {/* <Background /> */}
+            <div style={{ position: "absolute", top: '.5rem', right: '2rem' }}>
+                <DarkMode />
+            </div>
             <div className="place-select">
                 <span>Select State and City to View Job Requests</span>
                 <label htmlFor="state">Select State:</label>

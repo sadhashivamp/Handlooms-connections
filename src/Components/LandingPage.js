@@ -4,13 +4,16 @@ import landingImage from "../Assets/Landing.png";
 import Main from "../Assets/Main.gif";
 import { Link } from 'react-router-dom';
 import Background from '../Common/Background';
+import DarkMode from '../DarkMode/DarkMode'
 
 const LandingPage = () => {
     return (
-        <div className="hero-section d-flex justify-content-center align-items-center vh-100">
+        <div className="hero-section d-flex justify-content-center align-items-center vh-100" style={{position: "relative"}}>
             {/* Background Image with Blur */}
-            <Background />
-
+            {/* <Background /> */}
+            <div style={{position: "absolute", top : '2rem', right: '2rem'}}>
+                <DarkMode />
+            </div>
             {/* Content */}
             <Container className="text-center">
                 <Row className="justify-content-center">
@@ -20,7 +23,7 @@ const LandingPage = () => {
                         alignItems: "center", // vertically center the content
                         flexDirection: "column"
                     }}>
-                        <h1 className="display-4 mb-4" style={{ fontFamily: 'Impact', color: '#59B2F4' }}>Welcome to Handlooms</h1>
+                        <h1 className="welcome display-4 mb-4" >Welcome to Handlooms</h1>
 
                         <div
                             className="mb-4"
@@ -44,7 +47,7 @@ const LandingPage = () => {
                                 style={{ maxWidth: '100%', maxHeight: '100%' }}
                             />
                         </div>
-                         <Link to="/selection">
+                        <Link to="/selection">
                             <Button variant="primary" size="lg" role="button">Explore Now</Button>
                         </Link>
                     </Col>
